@@ -1,7 +1,6 @@
 import time
 
 def fib(n):
-    
     """Dado un entero n se retorna el enésimo numero en la serie de Fibonacci
     """
     #Se tiene un arreglo donde se almacenara los numeros de la serie
