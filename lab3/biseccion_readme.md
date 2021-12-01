@@ -39,6 +39,7 @@ def biseccion (function, a, b, ite = 0, max_ite = 100, tol = 0.001):
     else:
         return biseccion(function, c, b, ite + 1, max_ite, tol)
 ```
+Tomemos n = max_ite, si la raíz no se encuentra en el intervalo la función biseccion es llamada n veces (hasta que ite = n sumándole 1 a ite en cada iteración), luego la complejidad es O(n). Sea m = error, si la raíz se encuentra en el intervalo m es dividido entre 2 cada vez que llamamos la función, luego la complejidad es O(log(m)).
 
 ## Output del programa
 
